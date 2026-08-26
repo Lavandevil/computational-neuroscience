@@ -30,9 +30,7 @@ from scipy import stats
 # ----------------------------------------------------------------------
 # CONFIGURATION
 # ----------------------------------------------------------------------
-REPORT_DIR = r"D:/8thSeme/neuroscience/EEG/EEG data/data/codes/reports"
-LABEL_CSV = r"D:/8thSeme/neuroscience/EEG/EEG data/data/task6_labeled.csv"
-RESULTS_DIR = r"D:/8thSeme/neuroscience/EEG/EEG data/data/codes/results"
+#unfortunately I couldn't add my EEG data here because of security issues therefor we will have problems in running code but you can see result in final
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 SUBJECT_IDS = [1, 2, 3, 4, 5, 6]
